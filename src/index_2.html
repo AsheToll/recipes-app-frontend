@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recipes App</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Quattrocento|Quattrocento+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class = "hero is-primary is-large is-bold">
+        <div class = "hero-body">
+            <div class = "container">
+                <h1 class = "title">
+                    Recipes
+                </h1>
+                <h2 class = "subtitle"> <!-- This will be the selected filter -->
+                    All
+                </h2>
+                <button class = "add-recipe">Add a New Recipe</button>
+            </div>
+        </div>
+    </section>
+    <div class = "container create-recipe-modal">
+        <div class = "modal">
+            <div class = "modal-background"></div>
+            <div class = "modal-card">
+                <header class = "modal-card-head">
+                    <p class = "modal-card-title">Modal Title</p>
+                    <button class = "delete" aria-label = "close"></button>
+                </header>
+                <section class = "modal-card-body">
+                    <label class = "label">Recipe Image</label>
+                    <div class = "control">
+                        <input class = "input recipe-modal-image" type = "text" placeholder = "Image URL">
+                    </div>
+                    <br>
+                    <label class = "label">Recipe Name</label>
+                    <div class = "control">
+                        <input class = "input recipe-modal-name" type = "text" placeholder = "Recipe Name">
+                    </div>
+                    <br>
+                    <label class = "label">Recipe Description</label>
+                    <div class = "control">
+                        <textarea class = "textarea recipe-modal-description" type = "text" placeholder = "Description"></textarea>
+                    </div>
+                </section>
+                <footer class = "modal-card-foot">
+                    <button class = "button is-success save-button">Save Changes</button>
+                    <button class = "button cancel-button">Cancel</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id = "recipes-container">
+        <div class = "recipes-list">
+            <!-- <div class = "recipe-card">
+                <div class = "recipe-image">
+                    <img>
+                </div>
+                <div class = "recipe-text">
+                    <h3 class = "title">
+                        Recipe Title
+                    </h3>
+                    <h4 class = "subtitle">
+                        Recipe Subtitle
+                    </h4>
+                    <div class = "recipe-button">
+                        <button>
+                            See Recipe
+                        </button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- <section class = "hero is-primary is-large is-bold"> -->
+        <!-- <div class = "hero-body"> -->
+            <!-- This is just the image -->
+        <!-- </div> -->
+    <!-- </section> -->
+    <!-- <div class = "container"> -->
+        <!-- <h1 class = "title"> -->
+            <!-- Recipe.name -->
+        <!-- </h1> -->
+        <!-- <h2 class = "subtitle"> This will be the selected filter -->
+            <!-- Recipe.description -->
+        <!-- </h2> -->
+    <!-- </div> -->
+        <!-- <hr>
+        <div id = "recipe-preparation">
+            <div class = "recipe-columns">
+                <div class = "columns recipe-preparation-card">
+                    <div class = "column recipe-ingredients">
+                    </div>
+                    <div class = "column recipe-steps">
+                    </div>
+                </div>
+            </div>
+            <div class = 'edit-recipe-button'>
+                <button>Edit Recipe</button>
+            </div>
+            <div class = 'delete-recipe-button'>
+                <button>Delete Recipe</button>
+            </div>
+        </div> -->
+        <div class = "container edit-recipe-modal">
+            <div class = "modal">
+                <div class = "modal-background"></div>
+                <div class = "modal-card">
+                    <header class = "modal-card-head">
+                        <p class = "modal-card-title">Modal Title</p>
+                        <button class = "delete" aria-label = "close"></button>
+                    </header>
+                    <section class = "modal-card-body">
+                        <label class = "label">Recipe Image</label>
+                        <div class = "control">
+                            <input class = "input recipe-modal-image" type = "text" placeholder = "Image URL">
+                        </div>
+                        <br>
+                        <label class = "label">Recipe Name</label>
+                        <div class = "control">
+                            <input class = "input recipe-modal-name" type = "text" placeholder = "Recipe Name">
+                        </div>
+                        <br>
+                        <label class = "label">Recipe Description</label>
+                        <div class = "control">
+                            <textarea class = "textarea recipe-modal-description" type = "text" placeholder = "Description"></textarea>
+                        </div>
+                    </section>
+                    <footer class = "modal-card-foot">
+                        <button class = "button is-success save-button">Save Changes</button>
+                        <button class = "button cancel-button">Cancel</button>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    <script src="src/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</body>
+</html>

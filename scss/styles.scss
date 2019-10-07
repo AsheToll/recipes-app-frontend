@@ -1,0 +1,83 @@
+@import "/Users/ashley/Recipes App/node_modules/bulma/bulma.sass";
+
+body {
+    margin: 0;
+}
+
+h1, h3 {
+    font-family: 'Quattrocento', serif;
+}
+
+h2, h4 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+button {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 1%;
+    font-family: 'Lora', serif;
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 1%;
+    font-family: 'Lora', serif;
+    margin-bottom: 0.5rem;
+}
+
+.label {
+    font-family: 'Quattrocento', serif; // change this
+}
+
+.hero-body {
+    // background-image: linear-gradient(to bottom left, rgb(124, 253, 4), yellow);
+    background-image: url('/Users/ashley/Recipes App/recipes-frontend/assets/images/lily-banse--YHSwy6uqvk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#recipes-container {
+    width: 80%;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+// div.columns.recipe-preparation-card {
+//     margin-left: 50px;
+// }
+
+.recipe-ingredients {
+    background-color: rgb(223, 223, 223);
+}
+
+// div.column.recipe-ingredients {
+//     // dsa
+// }
+
+.recipe-ingredients ul {
+    padding: 50px;
+}
+
+.recipe-ingredients li {
+    font-family: 'Quattrocento';
+    font-size: 1.15em;
+    padding-bottom: 10px;
+}
+
+.recipe-steps {
+    font-family: 'Lora';
+    padding: 1%;
+}

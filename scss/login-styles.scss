@@ -1,0 +1,91 @@
+@import "/Users/ashley/Recipes App/node_modules/bulma/sass/utilities/_all.sass";
+@import "/Users/ashley/Recipes App/node_modules/bulma/sass/grid/columns.sass";
+
+body {
+    margin: 0;
+}
+
+h1, h3 {
+    font-family: 'Quattrocento', serif;
+}
+
+h2, h4 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+.login-form-container {
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom left, rgb(124, 253, 4), yellow);
+}
+
+.login-form-div {
+    height: 50vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.login-form-container .is-5 {
+    overflow: hidden;
+    padding: 0;
+}
+
+.login-form-container .is-5 img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1% 0 0 1%;
+}
+
+.login-form-container .login-portion {
+    border-radius: 0 1% 1% 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-text {
+    // display: flex;
+    // flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-field {
+    height: 5vh;
+    width: 15vw;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.diet-field {
+    height: 5vh;
+    width: 15vw;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.login-button-div {
+    text-align: center;
+}
+
+.login-button {
+    background-color: rgb(145, 253, 4);
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 1%;
+    font-family: 'Lora', serif;
+}
